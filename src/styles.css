@@ -1,0 +1,88 @@
+body {
+        background: linear-gradient(135deg, white 0%, #AEC2B6 400%);
+    }
+
+    h1 {
+        text-align: center;
+        color: #3C6255;
+        font-weight: bolder;
+        font-size: 50px;
+        line-height: 48px;
+
+    }
+
+    h2 {
+        text-align: center;
+        line-height: 20px;
+        color: #A6BB8D;
+        border: 2px solid #3C6255;
+        border-radius: 60%;
+        padding: 15px 100px;
+
+    }
+
+    button {
+        display: block;
+        color: #EAE7B1;
+        background-color: #A6BB8D;
+        padding: 15px 15px;
+        font-size: 20px;
+        margin: 20px auto;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 3px 5px rgba(60, 98, 85, 0.2);
+        transition: all 200ms ease-in-out;
+    }
+
+    button:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 6px;
+
+    }
+
+    p {
+        line-height: 1.4;
+        font-size: 15px;
+        margin: 17px 0 8px;
+    }
+
+    .learn-more {
+        text-decoration: none;
+        color: #A6BB8D;
+        font-size: 16px;
+    }
+
+    .learn-more:hover {
+        text-decoration: underline;
+    }
+
+    .coder {
+        text-align: center;
+        font-size: 17px;
+        text-align: center;
+        font-family: monospace;
+        opacity: 0.7;
+        font-weight: lighter;
+        line-height: 10px;
+    }
+
+    .content {
+        margin: 0 auto;
+        padding: 30px 60px;
+        max-width: 600px;
+    }
+
+    .message {
+        font-size: 23px;
+        font-style: italic;
+    }
+
+    strong {
+        font-style: italic;
+    }
